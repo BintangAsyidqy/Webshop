@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.toko {
+    height: 900px;
+    background-color: black;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 5%;
+    padding-left: 2%;
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px 70px 0px 70px;
+}
+nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 5px 15px;
+}
+nav ul li a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+}
+nav a:hover {
+    color: blueviolet;
+}
+.btn {
+    font-size: 30px;
+}
+h4 {
+    color: white;
+    font-size: 50px;
+    margin: 20px 0px 20px 75px;
+    letter-spacing: 2px;
+}
+
+.content{
+    display: flex;
+}
+.content a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: blueviolet;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    font-weight: 500;
+    transition: .3s;
+    margin: 8px 50px 0px 80px;
+}
+.content a:hover {
+    color: blueviolet;
+    background: transparent;
+}
+.foto1 {
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.content img {
+    width: 300px;
+    height: 300px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+.warna{
+    background-color: purple;
+}
+
+.textabin{
+    text-align: center;
+}
+.textabin h1{
+    padding-top: 40px;
+}
+.textabin h4{
+    margin-top: 0%;
+    color: black;
+    font-size: 20px;
+}
+.abin {
+    height: 350px;
+    display: flex;
+    padding-top: 30px;
+}
+.abin img {
+    margin-right: 100px;
+    margin-left: 130px;
+    height: 200px;
+    
+}
+.abin p{
+    margin-left: 130px;
+}
+.abin h2{
+    margin-left: 130px;
+    font-size: 20px;
+}
+.bintang {
+    background-color: #555;
+    height: 800px;
+}
+.bintang h1 {
+    text-align: center;
+}
+.tengah {
+    display: flex;
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+.tengah img{
+    height: 150px;
+    margin-left: 70px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+.tengah h2{
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: purple;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+.tengah p{
+    padding-left: 10px;
+    background-color: purple;
+    margin-left: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tengahtengah {
+    display: flex;
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+.tengahtengah img{
+    height: 150px;
+    margin-left: 70px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+.tengahtengah h2{
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: purple;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+.tengahtengah p{
+    padding-left: 10px;
+    background-color: purple;
+    margin-left: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tengah3 {
+    display: flex;
+    margin-left: 400px;
+    padding-top: 30px;
+}
+
+.tengah3 img{
+    height: 150px;
+    margin-left: 70px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+.tengah3 h2{
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: purple;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+.tengah3 p{
+    padding-left: 10px;
+    background-color: purple;
+    margin-left: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bawah{
+    display: flex;
+}
+.bawah img{
+    height: 300px;
+}
+.bawahtengah {
+    text-align: center;
+    margin-top: 100px;
+}
+.bawahtengah button{
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+}
+.card5 {
+    background-color: black;
+    height: 400px;
+    font-size: 25px;
+}
+.text-card5 p {
+    color: white;
+    font-size: 25px;
+    padding-left: 45px;
+    margin: 10px;
+    padding-top: 40px;
+}
+
+.text-card5 span {
+    color: white;
+}
+
+.text-card5 article {
+    color: white;
+    padding-left: 55px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text-card5 span{
+    color: purple;
+}
+.copy p {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+}
+.isi {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.isi li {
+    list-style: none;
+}
+
+.isi h3 {
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.isi ul {
+    padding-top:20px;
+    font-size: 15px;
+}
+@media (max-width: 414px){
+    header{
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    
+}
